@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+<body style="background-color: #eef0e1;">
+
+    <header style="background-color: #e6ce1c;">
+        <h1 align="center">Register</h1>
+    </header>
+    <form action="login.php" method="POST">
+        <fieldset>
+            <legend></legend>
+                <table border="0" width="400">
+                    <tr><td>Nama</td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" placeholder="nama lengkap..."/></td>
+                    </tr>
+                    <tr><td>Username</td>
+                        <td>:</td>
+                        <td><input type="text" name="username" placeholder="username..."/></td>
+                    </tr>
+                    <tr><td>Email</td>
+                        <td>:</td>
+                        <td><input type="email" name="email" placeholder="your email..."/></td>
+                    </tr>
+                    <tr><td>Password</td>
+                        <td>:</td>
+                        <td><input type="password" name="password" placeholder="password..."/></td>
+                    </tr>
+                    <tr><td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td>
+                            <br>
+                            <input type="radio" name="jenis kelamin" value="laki - laki"/> Laki - laki
+                            <br>
+                            <input type="radio" name="jenis kelamin" value="Perempuan"/> Perempuan 
+                        </td>
+                    </tr>
+                    <tr><td>Agama</td>
+                        <td>:</td>
+                        <td>
+                            <select name="agama">
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td>Alamat Web</td>
+                        <td>:</td>
+                        <td><input type="url" name="name" placeholder="masukan url web..."/></td>
+                    </tr>
+                    <tr><td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td><input type="date" name="tgl_lahir" required></td>
+                    </tr>
+                    <tr><td>Umur</td>
+                        <td>:</td>
+                        <td><input type="number" name="umur" required></td>
+                    </tr>
+                    <tr><td>Biografi</td>
+                        <td>:</td>
+                        <td><textarea name="Biografi"></textarea></td>
+                    </tr>
+                </table>
+                <p>
+                    <input type="submit" name="submit" value="Daftar"/>
+                </p>
+        </fieldset>
+</body>
+</html>
