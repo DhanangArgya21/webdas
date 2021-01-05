@@ -1,0 +1,58 @@
+[
+    {
+        "nim" : "11760",
+        "nama" : "dhanang argya",
+        "alamat" : "Semarang",
+        "jurusan" : "teknik informatika",
+        "MK" : [
+            {
+                "mk kode" : "101",
+                "nama mk" : "SISTEM BASIS DATA"
+            },
+            {
+                "mk_kode" : "102",
+                "nama_mk" : "ALJABAR LINIER"
+            },
+            {
+                "mk kode" : "103",
+                "nama mk" : "ANALISIS ALGORITMA"
+            },
+            {
+                "mk_kode" : "104",
+                "nama mk" : "KECERDASAN BUATAN"
+            },
+            {
+                "mk_kode" : "105",
+                "nama_mk" : "JARINGAN KOMPUTER"
+            }
+        ]
+    },
+    {
+        "nim" : "11765",
+        "nama" : "pandu wijaya",
+        "alamat" : "Semarang",
+        "jurusan" : "Sistem Informasi",
+        "MK" : [
+            {
+                "mk_kode" : "301",
+                "nama_mk" : "ANALISA PROSES BISNIS"
+            },
+            {
+                "mk kode" : "302",
+                "nama mk" : "DATABASE TERDISTRIBUSI"
+            },
+            {
+                "mk_kode" : "303",
+                "nama_mk" : "ETIKA PROFESI"
+            },
+            {
+                "mk_kode" : "304",
+                "nama mk" : "REKAYASA WEB"
+            },
+            {
+                "mk kode" : "305",
+                "nama_mk" : "AUDIT SISTEM INFORMASI"
+            }
+        ]
+    }
+]
